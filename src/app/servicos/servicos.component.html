@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="area-botoes">
+    <div class="container-botao" *ngFor="let conteudo of conteudos; index as i">
+      <button>
+        <img [src]="conteudo.img" [class.ativo]="i == escolhido" (click)="selenioarServico(i)">
+      </button>
+      <span> {{ conteudo.texto }} </span>
+    </div>
+  </div>
+  <div class="resultado">
+    <h1><strong>{{ titulo_servico }}</strong></h1>
+    <p [innerHTML]="textoComQuebraDeLinha">{{ paragrafo_servico }}</p>
+  </div>
+</div>
