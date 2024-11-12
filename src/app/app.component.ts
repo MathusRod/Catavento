@@ -33,7 +33,6 @@ export class AppComponent {
     }
   }
 
-  // Função de animação de rolagem suave (easeInOutQuad)
   easeInOutQuad(t: number, b: number, c: number, d: number): number {
     t /= d / 2;
     if (t < 1) return c / 2 * t * t + b;
