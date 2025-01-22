@@ -13,7 +13,7 @@ interface Conteudos {
 })
 export class ServicosComponent {
 
-  constructor(private _servicosService: ServicosService){}
+  constructor(private readonly _servicosService: ServicosService){}
   conteudos = this._servicosService.conteudos
   titulo_servico = this._servicosService.servicos[0].titulo
   paragrafo_servico = this._servicosService.servicos[0].paragrafo

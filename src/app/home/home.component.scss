@@ -6,12 +6,11 @@
   width: 100%;
   height: 750px;
   margin: auto;
-  background-image: url("../../assets/IMG_0771.png");
+  background-image: url("../../assets/imgs/Nova\ imagem\ inicial\ do\ site.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
   @media (max-width: 1179px) {
-    // background-size: contain;
     height: 600px;
   }
   @media (max-width: 900px) {
@@ -69,33 +68,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* Ajuste a opacidade aqui */
+    background-color: rgba(0, 0, 0, 0.3);
   }
-  // img {
-  //   width: 60%;
-  //   height: 100%;
-  //   clip-path: polygon(33% 0, 100% 0, 100% 100%, 0% 100%, 10% 70%);
-  // }
 }
 .strong-green {
   color: #469665;
 }
-// footer {
-//   width: 100%;
-//   background-color: #fff;
-//   display: flex;
-//   height: 90px;
-//   .logo {
-//     filter: brightness(0) saturate(100%) invert(66%) sepia(11%) saturate(14%)
-//       hue-rotate(329deg) brightness(93%) contrast(95%);
-//   }
-//   .footer-conteudo{
-//     display: flex;
-//     .reta{
-//       height: 3px;
-//       width: 200px;
-//       background-color: #10307C;
-//     }
-//   }
-
-// }

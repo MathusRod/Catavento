@@ -6,11 +6,11 @@ import { Injectable } from '@angular/core';
 export class ServicosService {
   conteudos = [
     { img: '../../assets/imgs/img1.png', texto: 'Gestão de Resíduos' },
-    { img: '../../assets/imgs/img2.png', texto: 'Sistema de Gestão Ambiental' },
+    { img: '../../assets/imgs/gestao_ambiental.JPG', texto: 'Sistema de Gestão Ambiental' },
     { img: '../../assets/imgs/img3.png', texto: 'Outorga de Poço' },
     { img: '../../assets/imgs/img4.png', texto: 'Licenças e Autorizações Ambientais' },
     { img: '../../assets/imgs/img5.png', texto: 'Relatório de Emissões Atmosféricas' },
-    { img: '../../assets/imgs/img6.png', texto: 'Consultoria Personalizada' }
+    { img: '../../assets/imgs/consultoria.jpeg', texto: 'Consultoria Personalizada' }
   ];
   servicos =[
     {titulo: 'Gestão de Resíduos', paragrafo: 'O Plano de Gerenciamento de Resíduos é um documento técnico que indica aforma ambientalmente correta para o manejo dos resíduos da sua geração até a suadisposição final. A elaboração e a execução do PGR são obrigatórias aos geradoresde resíduos sólidos. Tornando-se obrigatória a vinculação da aprovação destedocumento à análise dos pedidos de alvará de funcionamento, construção, reformaou reparo, registro sanitário, licença ambiental e autorização para demolição oucorte de vegetação arbórea.'},
